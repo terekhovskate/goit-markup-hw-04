@@ -10,6 +10,7 @@
   --light-grey-color: #afb1b8;
 }
 
+/* Reset*/
 .page {
   background-color: var(--white-background-color);
   color: var(--text-color);
@@ -49,7 +50,6 @@ p {
 }
 
 /* Header */
-
 .header {
   border-bottom: 1px solid var(--accent-color);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -124,8 +124,7 @@ p {
   text-decoration: none;
 }
 
-/* Hero Section*/
-
+/* 1st Section/Hero Section*/
 .overlay {
   max-width: 1440px;
   height: 600px;
@@ -200,8 +199,7 @@ p {
   background-color: var(--pressed-state-color);
 }
 
-/* Features Section*/
-
+/* 2nd Section/Features Section*/
 .features-list {
   display: flex;
   gap: 24px;
@@ -256,7 +254,7 @@ p {
   letter-spacing: 0.02em;
 }
 
-/* What are we doing Section*/
+/* 3rd Section/What are we doing Section*/
 
 .pictures {
   padding-bottom: 120px;
@@ -293,8 +291,7 @@ p {
   width: calc((100% - 72px) / 4);
 }
 
-/* Members Section*/
-
+/* 4th Section/Members Section*/
 .info {
   padding: 32px 0;
 }
@@ -367,8 +364,7 @@ p {
   background-color: #404bbf;
 }
 
-/* Clients Section*/
-
+/* 5th Section/Clients Section*/
 .clients {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -415,7 +411,6 @@ p {
 }
 
 /* Footer Section*/
-
 .footer {
   background-color: var(--dark-color);
   padding-top: 100px;
@@ -508,7 +503,6 @@ p {
 }
 
 /* Portfolio Main*/
-
 .buttons {
   display: flex;
   gap: 24px;
